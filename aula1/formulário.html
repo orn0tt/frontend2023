@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo formulário</title>
+</head>
+<body>
+    <form action="" method="get">
+
+        <label>Nome:</label>
+        <input type="text" required="true" maxlength="30" minlength="10" tabindex="2" name="nome"> </input><br><br>
+
+        <label>Senha:</label>
+        <input type="password" required="true" name="senha"><br>
+
+        <br><label>Data Nascimento:</label>
+        <input type="date" required="true" tabindex="1" name="dataNascimento"></input><br><br>
+
+        <label>Estado Cívil</label><br>
+        <input type="radio" value="Casado" name="casado">Casado<br>
+        <input type="radio" value="Solteiro" name="solteiro">Solteiro<br>
+        <input type="radio" value="Viúvo" name="viuvo">Viúvo<br>
+
+        
+        <br> <label>Email:</label>
+        <input type="email"></input><br><br>
+        
+        <label for="">Marque as opções abaixo:</label><br>
+        <input type="checkbox">Alguma doença?</input><br>
+        <input type="checkbox">Fumante?</input><br><br>
+
+        <!-- <select name="" id="">
+            <option label= "Alguma doença"value="1"></option>
+            <option label= "Fumante"value="2"></option>
+        </select><br><br>    -->
+
+        
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
