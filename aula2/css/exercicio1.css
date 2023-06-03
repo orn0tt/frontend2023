@@ -1,0 +1,62 @@
+body {
+  background-image: url("/img/teste.gif");
+  background-repeat: unset;
+  color: white;
+  margin: 0;
+  text-align: justify;
+}
+
+.titulo {
+  width: 400px;
+  height: auto;
+  border: 5px solid rgb(2, 245, 55);
+  border-width: thin;
+  border-radius: 100px;
+  background-color: black;
+  font-size: 30px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  box-sizing: content-box;
+  padding: 8px;
+  text-align: center;
+  margin: 750px;
+  margin-top: 0;
+  margin-bottom: 3px;
+}
+
+.titulo > p {
+  margin-top: 1px;
+  margin-left: 10px;
+  font-size: 13px;
+  margin-bottom: 0;
+}
+
+.subtitulo {
+  margin: 600px;
+  font-size: 23px;
+  margin-top: 60px;
+  border: 5px solid rgb(2, 245, 55);
+  border-right-width: 10px;
+  border-radius: 100px 100px 0px 0px;
+  background-color: black;
+  box-sizing: content-box;
+  padding: 20px;
+  text-align: center;
+  border-width: thin;
+  width: 700px;
+  margin-top: 15px;
+  margin-bottom: 0;
+}
+
+.informações {
+  margin: 600px;
+  font-size: 18px;
+  border: 5px solid rgb(2, 245, 55);
+  border-radius: 0px 0px 100px 100px;
+  background-color: black;
+  box-sizing: content-box;
+  padding: 20px;
+  text-align: left;
+  border-width: thin;
+  width: 700px;
+  margin-top: 0;
+}
