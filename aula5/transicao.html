@@ -65,6 +65,46 @@
       .transicaoText:focus {
         transform: scaleX(0.6) scale(0.5) rotateZ(360deg);
       }
+
+      .spinner {
+        border-radius: 50%;
+      }
+
+      @keyframes rotate {
+        from {
+          transform: rotateZ(0deg);
+        }
+        to {
+          transform: rotateZ(360deg);
+        }
+      }
+
+      .animacaoSpinner {
+        animation: rotate 2s linear infinite;
+      }
+
+      .animacaoSpinnerEase {
+        animation: rotate 2s ease infinite;
+      }
+
+      @keyframes promocao {
+        0% {
+          content: "Promoção";
+        }
+
+        50% {
+          content: "";
+        }
+
+        100% {
+          content: "Frete Grátis";
+        }
+      }
+
+      .animacaoConteudo::after {
+        content: "";
+        animation: promocao 2s linear infinite;
+      }
     </style>
   </head>
   <body>
@@ -89,6 +129,21 @@
     <hr />
     <section>
       <input type="text" class="transicaoText" />
+    </section>
+
+    <hr />
+    <h2>Spinners</h2>
+    <section>
+      <div class="item azul spinner animacaoSpinner">Azul</div>
+      <div class="item azul spinner animacaoSpinnerEase">Azul-Ease</div>
+    </section>
+
+    <hr />
+    <h2>Conteúdo</h2>
+    <section>
+      <a href="https://www.google.com.br"
+        ><div class="item vermelho animacaoConteudo"></div
+      ></a>
     </section>
   </body>
 </html>
