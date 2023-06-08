@@ -1,0 +1,28 @@
+.conteudo {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+}
+
+.conteudo div {
+  color: gray;
+  border-bottom: 2px solid;
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+}
+
+/* escolho qual linha que vai ser alterada da div */
+.conteudo div:nth-child(3) {
+  background-color: black;
+}
+
+/* odd- pega as linhas ímpares */
+.conteudo div:nth-child(odd) {
+  background-color: black;
+}
+
+/* even- pega as linhas pares
+.conteudo div:nth-child(even) {
+  background-color: black;
+} */
