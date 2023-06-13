@@ -1,0 +1,12 @@
+.layout-cabecalho {
+  height: 80px;
+  border-bottom: 1px solid #ccc;
+}
+
+.layout-planos {
+  padding: 80px 0px;
+}
+
+.layout-cabecalho__fundo {
+  background-color: #95a4a5;
+}

@@ -1,0 +1,7 @@
+Ordem:
+
+1- Posicionamento
+2- Display
+3- Cores
+4- Formatação de Texto
+5- Outros...
