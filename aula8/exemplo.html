@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exemplo</title>
+  </head>
+  <body>
+    <script>
+      let data = new Date();
+      let hora = data.getHours();
+
+    //   if (hora < 12.0) {
+    //     document.write("Bom dia!");
+    //   } else if (hora >= 12.0 && hora <= 18.0) {
+    //     document.write("Boa tarde!");
+    //   } else {
+    //     document.write("Boa noite!");
+    //   }
+
+      let exibir =
+        hora < 12
+          ? document.write("Bom dia!")
+          : hora >= 12.0 && hora <= 18.0
+          ? document.write("Boa tarde!")
+          : document.write("Boa noite!");
+    </script>
+  </body>
+</html>
