@@ -31,7 +31,8 @@
 
 .layout-cabecalho {
   height: 80px;
-  /*  border-bottom: 1px solid #ccc;*/
+  padding: 20px;
+  background-color: #95a4a5;
 }
 
 .layout-cabecalho--position {
@@ -69,4 +70,9 @@
   color: #fff;
   text-align: center;
   margin-bottom: 10px;
+}
+
+.layout-assinatura {
+  padding: 160px 0;
+  background-color: #e7e7e7;
 }
