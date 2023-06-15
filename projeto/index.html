@@ -23,9 +23,31 @@
   </head>
 
   <body>
-    <header class="layout-cabecalho layout-cabecalho__fundo">
+    <header
+      class="layout-cabecalho__fundo layout-cabecalho layout-cabecalho--position"
+    >
       <div class="container">
-        <img src="./img/internet.png" alt="Internet" />
+        <nav class="navegacao">
+          <img src="./img/internet.png" alt="Internet" />
+          <div class="navegacao__menu">
+            <button class="botao--chaveador"></button>
+
+            <ul class="menu">
+              <li class="menu__item">
+                <a href="#">História</a>
+              </li>
+              <li class="menu__item">
+                <a href="#planos">Planos e Preços</a>
+              </li>
+              <li class="menu__item">
+                <a href="#">Contato</a>
+              </li>
+              <li class="menu__item">
+                <a href="#">Login</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
       </div>
     </header>
 
@@ -83,7 +105,7 @@
           </div>
 
           <div class="col-md-4">
-            <article class="plano">
+            <article class="plano plano--mais--vendido">
               <h2 class="plano__cabecalho">Intermediário</h2>
               <div class="plano__preco">99,90</div>
               <ul class="plano__caracteristicas">
@@ -99,7 +121,7 @@
             </article>
           </div>
 
-          <div class="col-md-4">
+          <div class="col-md-4 ultima--coluna">
             <article class="plano">
               <h2 class="plano__cabecalho">Avançado</h2>
               <div class="plano__preco">119,90</div>

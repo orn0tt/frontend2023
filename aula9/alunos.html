@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alunos map</title>
+  </head>
+  <body>
+    <script>
+      const alunos = [
+        {
+          matricula: 123,
+          nome: "Joanna",
+          email: "joanna@gmail.com",
+          idade: 50,
+        },
+        { matricula: 223, nome: "Ricardo", email: "ric@gmail.com", idade: 30 },
+        { matricula: 433, nome: "Roberta", email: "rob@gmail.com", idade: 18 },
+        { matricula: 143, nome: "Suelen", email: "su@gmail.com", idade: 22 },
+      ];
+
+      // const matriculas = alunos.map((a) => a.matricula);
+      // matriculas.forEach((m) => document.write(m, "<br>"));
+
+      // Listar alunos com o nome Ricardo
+
+      // // criando variável
+      // const listarAlunos = alunos
+      //   .filter((a) => a.nome == "Ricardo")
+      //   .forEach((a) => document.write(a.nome + "<br>"));
+
+      // // sem criar variável
+      // alunos
+      //   .filter((a) => a.nome == "Ricardo")
+      //   .forEach((a) => document.write(a.nome + "<br>"));
+
+      alunos
+        .filter((aluno) => aluno.idade > 25)
+        .forEach((aluno) => document.write(aluno.idade + "<br>"));
+    </script>
+  </body>
+</html>
